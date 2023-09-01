@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Sunflower:wght@300;500&display=swap');
+
+#weight-test>li{
+    font-size: 34px;
+}
+
+
+#weight-test>li:nth-child(1){
+    font-weight: 600;
+}
+
+#weight-test>li:nth-child(2){
+    font-weight:bold;
+}
+
+
+#weight-test>li:nth-child(3){
+    font-weight:bolder;
+}
+
+
+#weight-test>li:nth-child(4){
+    font-weight:lighter;
+}
+
+#weight-test>li:nth-child(5){
+
+    /* 글꼴의 모양을 지정하는 속성 */
+    font-style: italic;
+}
+
+.cls> li{font-size: 24px;}
+
+#family-test1>li:nth-child(1){
+    font-family: '궁서';
+    /* 설치된 폰트인 경우  */
+}
+
+#family-test1>li:nth-child(2){
+    font-family: '배달의 민족체';
+    /* 없는 폰트인 경우 기본폰트로 설정됨 */
+}
+
+
+#family-test1>li:nth-child(3){
+    font-family: '배달의 민족체', '굴림체';
+    /* 없는 폰트인 경우 기본폰트로 설정됨 */
+}
+
+
+/* 웹폰트 */
+#family-test2>li:nth-child(1){
+   font-family: 'Cute Font', cursive;
+    font-family: 'Sunflower', sans-serif;
+
+}
+
+/* @import는 css 파일 제일 상단에 작성해야한다 */
+#family-test2>li:nth-child(2){
+    font-family: 'Cute Font', cursive;
+    font-family: 'Sunflower', sans-serif;
+ }
+ 
+
+ @font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#family-test2>li:nth-child(3){
+    font-family: 'SBAggroB';
+ }
+ 

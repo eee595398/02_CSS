@@ -1,0 +1,195 @@
+div{
+    display: flex;
+}
+
+#aa {
+  
+    width: 500px;
+    height: 300px;
+    flex-direction: column; 
+}
+
+.aaa{
+    height: 20%;
+    background-color: yellow;
+}
+
+.aaaa{
+   height: 40%;
+}
+
+.aaaa1{
+    width:30%;
+    background-color: blue;
+}
+
+.aaaa2{
+    flex-direction: column;
+    flex:1;
+}
+
+.aaaaa2{
+  flex:1;
+  background-color: red;
+}
+
+
+.aaaaa1{
+    flex:1;
+}
+
+.a11{
+    width: 80%;
+    background-color: aqua;
+}
+
+.a22{
+    flex:1;
+    background-color: coral;
+}
+
+
+#bb{
+    width: 500px;
+    height: 300px;
+    flex-direction: column; 
+
+}
+
+.bbb{
+    height: 20%;
+    background-color: aquamarine;
+
+}
+
+.bbbb{
+    height: 80%;
+    
+}
+
+.bbbb1{
+    flex-basis: 30%;
+    background-color: yellowgreen;
+}
+
+.bbbb2{
+    flex-basis: 70%;
+    background-color: orange;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.bbbb11{
+    width:30%;
+    height: 50%;
+    border : 1px solid black
+}
+
+
+#cc{
+    width: 800px;
+    height:400px;
+    flex-direction: column; 
+    border:3px solid black;
+
+}
+
+.c1{
+    flex-basis: 20%;
+    background-color: yellow;
+    border: 3px solid black;
+}
+
+.c11{
+    flex-basis: 20%;
+    border: 3px solid black;
+    
+}
+
+.c12{
+    flex-basis: 40%;
+    border: 3px solid black;
+}
+
+.c13{
+    flex-basis: 40%;
+    border: 3px solid black;
+}
+
+.c2{
+    flex:1;
+    border: 3px solid black;
+}
+
+.c21{
+    flex-basis: calc(100%/3);
+    border: 3px solid black;
+
+}
+
+.c211{
+    flex:1;
+    border: 3px solid black;
+    flex-direction: column;
+}
+
+.c2111{
+    flex:1;
+    background-color: turquoise;
+}
+
+.c212{
+    flex:1;
+    background-color: blueviolet;
+}
+
+.c22{
+    flex:1;
+    flex-direction: column;
+    border: 3px solid black;
+    
+}
+
+.c221{
+    flex:1;
+    background-color: orange;
+}
+
+.c222{
+    flex:1;
+}
+
+.c2221{
+    flex:1;
+    flex-direction: column;
+    
+}
+
+.c22211{
+    flex:1;
+    background-color: greenyellow;
+}
+
+.c2222{
+    flex:1;
+    background-color: red;
+}
+
+.c23{
+    flex:1;
+    flex-direction: column;
+    background-color: blueviolet;
+   
+}
+
+.c231{
+    flex:1;
+}
+
+.c232{
+    flex:1;
+}
+
+.c233{
+    flex:1;
+}
